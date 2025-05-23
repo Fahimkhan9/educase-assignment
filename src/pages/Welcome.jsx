@@ -22,7 +22,7 @@ function Welcome() {
 
      <div>
        <Link to='/signin'>
-       <button className="w-full bg-purple-100 text-purple-800 cursor-pointer font-semibold py-3 rounded-lg">
+       <button className="w-full bg-purple-300 text-purple-800 cursor-pointer font-semibold py-3 rounded-lg">
         Already Registered? Login
       </button>
       </Link>
