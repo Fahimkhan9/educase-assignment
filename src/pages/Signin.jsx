@@ -15,18 +15,19 @@ function Signin() {
     </p>
 
     <form className="space-y-4">
+     {/* <!-- Email --> */}
       <fieldset className="border border-gray-300 rounded-md px-4 pt-1 pb-2">
-        <legend clclassNameass="text-sm text-purple-600 px-1">Email Address</legend>
-        <input type="email" placeholder="Enter email address"
-               className="w-full mt-1 border-none focus:ring-0 focus:outline-none text-sm text-gray-700" />
+        <legend className="text-sm text-purple-600 px-1">Email address<span className="text-red-500">*</span></legend>
+        <input type="email" placeholder="Marry Doe"
+               className="w-full mt-1 border-none focus:outline-none focus:ring-0 text-sm text-gray-700" />
       </fieldset>
 
+      {/* <!-- Password --> */}
       <fieldset className="border border-gray-300 rounded-md px-4 pt-1 pb-2">
-        <legend className="text-sm text-purple-600 px-1">Password</legend>
-        <input type="password" placeholder="Enter password"
-               className="w-full mt-1 border-none focus:ring-0 focus:outline-none text-sm text-gray-700" />
+        <legend className="text-sm text-purple-600 px-1">Password <span className="text-red-500">*</span></legend>
+        <input type="password" placeholder="Marry Doe"
+               className="w-full mt-1 border-none focus:outline-none focus:ring-0 text-sm text-gray-700" />
       </fieldset>
-
       <Link to='/account'>
       <button type="submit"
               className="w-full bg-gray-300 cursor-pointer text-white font-semibold py-3 rounded-lg">
